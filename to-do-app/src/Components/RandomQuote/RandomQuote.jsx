@@ -17,7 +17,7 @@ export const RandomQuote = () => {
     }
   
     const[quote,setQuote] = useState({
-        quote: "You cannot find purr-peace by avoiding life, nya~. – Virginia Whiskers"
+        quote: "\"You cannot find purr-peace by avoiding life, nya~.\" – Virginia Whiskers"
     });
 
     loadQuotes();
