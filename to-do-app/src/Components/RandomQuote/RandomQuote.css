@@ -12,15 +12,15 @@
 }
 
 .title {
-    padding: 10%;
+    padding: 5%;
     color: #0D324D;
     font-size: 50px;
     text-align: center;
   }
 
   .quote {
-    height: 20vh;
-    width: 70vh;
+    height: 40vh;
+    width: 80vh;
     color: #0D324D;
     font-size: 32px;
     text-align: center;
