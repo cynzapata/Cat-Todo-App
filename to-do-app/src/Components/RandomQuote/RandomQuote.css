@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 5em;
+    background: #C0BEF6;
+    width: 80%;
+    border-radius: 15px;
+}
+
+.title {
+    padding: 60px 110px;
+    color: #0D324D;
+    font-size: 32px;
+    text-align: center;
+    background-color: #F1DBF6;
+    outline: auto;
+    outline-color: #0D324D;
+  }
+
+  .quote {
+    padding: 60px 110px;
+    color: #0D324D;
+    font-size: 32px;
+    text-align: center;
+    background-color: #F1DBF6;
+    outline: auto;
+    outline-color: #0D324D;
+  }

@@ -7,8 +7,8 @@ export const RandomQuote = () => {
     let quotes = [];
 
     async function loadQuotes() {
-        const response = await fetch("challenge.json");
-        challenges = await response.json();
+        const response = await fetch("quote.json");
+        quotes = await response.json();
     }
 
     const random = () => {
@@ -25,15 +25,15 @@ export const RandomQuote = () => {
     return (
 
     <div className='container'>
-         
+          <div className="Title">To-do List</div>
          
         <div className="quote">{quote.quote}</div>
        
-           
+       
         </div>
     
   )
 }
 
 
-export default RandomChallenge
+export default RandomQuote
