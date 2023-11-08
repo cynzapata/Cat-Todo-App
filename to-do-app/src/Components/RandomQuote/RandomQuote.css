@@ -14,15 +14,16 @@
 .title {
     padding: 5%;
     color: #0D324D;
-    font-size: 50px;
+    font-size: 5em;
     text-align: center;
   }
 
   .quote {
-    height: 40vh;
-    width: 80vh;
+    
+    height: 10em;
+    width: 15em;
     color: #0D324D;
-    font-size: 32px;
+    font-size: 2em;
     text-align: center;
     background-color: #F1DBF6;
     outline: auto;
