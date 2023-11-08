@@ -25,9 +25,9 @@ export const RandomQuote = () => {
     return (
 
     <div className='container'>
-          <div className="Title">To-do List</div>
+          <div className="title"><span className="font-link">To-do List</span></div>
          
-        <div className="quote">{quote.quote}</div>
+        <div className="quote"><span className="font-link">{quote.quote}</span></div>
        
        
         </div>

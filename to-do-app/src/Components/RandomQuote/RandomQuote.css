@@ -1,3 +1,7 @@
+.font-link {
+  font-family: 'VT323', cursive;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -10,11 +14,8 @@
 .title {
     padding: 10%;
     color: #0D324D;
-    font-size: 300px;
+    font-size: 50px;
     text-align: center;
-    background-color: #F1DBF6;
-    outline: auto;
-    outline-color: #0D324D;
   }
 
   .quote {
