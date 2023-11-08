@@ -19,7 +19,8 @@
   }
 
   .quote {
-    padding: 60px 110px;
+    height: 20vh;
+    width: 70vh;
     color: #0D324D;
     font-size: 32px;
     text-align: center;
