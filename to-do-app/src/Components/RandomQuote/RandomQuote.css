@@ -18,6 +18,11 @@
     text-align: center;
   }
 
+  .checkmark {
+    background-color: #5E3E3E;
+    border-radius: 25px;
+  }
+
   .task-subtitle {
     padding: 5%;
     color: #5E3E3E;
