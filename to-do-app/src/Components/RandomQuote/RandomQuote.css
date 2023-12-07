@@ -29,7 +29,7 @@
 }
 
 .title {
-    padding: 5%;
+    padding: 3%;
     color: #5E3E3E;
     font-size: 5em;
     text-align: center;
@@ -42,7 +42,7 @@
   input[type="checkbox"] + span:before {
     width: 12px;
     height: 12px;
-    border: 1.5px solid #f0f0f0;
+    border: 1.5px solid #8DA2F1;
     content: "";
     display: inline-block;
     margin: 0 16px 0 0;
@@ -52,9 +52,9 @@
   }
 
   input[type="checkbox"]:checked + span:before {
-    background: #1460c8;
-    border: 1.5px solid #1460c8;
-    box-shadow: inset 0px 0px 0px 1px #fff;
+    background: #8DA2F1;
+    border: 1.5px solid #8DA2F1;
+    box-shadow: inset 0px 0px 0px 1px #8DA2F1;
     color: #333;
     content: "";
     text-align: center;
@@ -73,7 +73,7 @@
   }
 
 .quote-subtitle {
-  padding: 5%;
+  padding-bottom: 6%;
   color: #5E3E3E;
   font-size: 3em;
   text-align: Left;
