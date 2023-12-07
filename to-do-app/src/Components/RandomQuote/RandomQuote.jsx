@@ -29,7 +29,11 @@ export const RandomQuote = () => {
   
     return (
       <div className='container'>
+        
         <div className="title"><span className="font-link">TASKS FOR PRODUCTIVITY</span></div>
+        
+        <div className='content-container'>
+        <div className='inner-container'>
         <div className="task-subtitle"><span className="font-link">HIGHEST PURIORITY</span></div>
         <label>
         <input type="checkbox" onChange={() => {}} />
@@ -59,9 +63,13 @@ export const RandomQuote = () => {
         <input type="checkbox" onChange={() => {}} />
         <span><input type="text" placeholder="My task goes here"/></span>
       </label>
-      
+      </div>
+
+      <div className='inner-container'>
         <div className="quote-subtitle"><span className="font-link">LOOKING PUR MOTIVATION?</span></div>
         <div className="quote"><span className="font-link">{quote.quote}</span></div>
+      </div>
+      </div>
       </div>
     );
   };

@@ -4,11 +4,28 @@
 
 .container{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     align-items: center;
     height: 100%;
     background: #F1DBF6;
     width: 100%;
+}
+.content-container{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  height: 100%;
+  background: #F1DBF6;
+  width: 100%;
+}
+
+.inner-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  background: #F1DBF6;
+  width: 100%;
 }
 
 .title {
@@ -18,9 +35,34 @@
     text-align: center;
   }
 
-  .checkmark {
-    background-color: #5E3E3E;
-    border-radius: 25px;
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  input[type="checkbox"] + span:before {
+    width: 12px;
+    height: 12px;
+    border: 1.5px solid #f0f0f0;
+    content: "";
+    display: inline-block;
+    margin: 0 16px 0 0;
+    padding: 0;
+    vertical-align: top;
+    border-radius: 50%;
+  }
+
+  input[type="checkbox"]:checked + span:before {
+    background: #1460c8;
+    border: 1.5px solid #1460c8;
+    box-shadow: inset 0px 0px 0px 1px #fff;
+    color: #333;
+    content: "";
+    text-align: center;
+    border-radius: 50%;
+  }
+  
+  input[type="checkbox"]:focus + span::before {
+    outline: 0;
   }
 
   .task-subtitle {
