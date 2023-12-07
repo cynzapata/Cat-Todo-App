@@ -35,6 +35,11 @@
     text-align: center;
   }
 
+  label {
+    cursor: pointer;
+    padding: 2%;
+  }
+
   input[type="checkbox"] {
     display: none;
   }
@@ -63,6 +68,17 @@
   
   input[type="checkbox"]:focus + span::before {
     outline: 0;
+  }
+
+  input[type="text"] {
+    background: #F1DBF6;
+    border: none;
+    font-family: 'VT323', cursive;
+    color: #5E3E3E;
+    font-size: 1.5em;
+    text-decoration: underline;
+    text-decoration-color: #5E3E3E;
+    text-decoration-thickness: 3px;
   }
 
   .task-subtitle {
