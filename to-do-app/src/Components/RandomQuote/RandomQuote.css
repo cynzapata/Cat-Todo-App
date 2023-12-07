@@ -18,6 +18,13 @@
     text-align: center;
   }
 
+  .task-subtitle {
+    padding: 5%;
+    color: #5E3E3E;
+    font-size: 3em;
+    text-align: Left;
+  }
+
 .quote-subtitle {
   padding: 5%;
   color: #5E3E3E;

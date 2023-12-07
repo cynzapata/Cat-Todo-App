@@ -30,6 +30,15 @@ export const RandomQuote = () => {
     return (
       <div className='container'>
         <div className="title"><span className="font-link">TASKS FOR PRODUCTIVITY</span></div>
+        <div className="task-subtitle"><span className="font-link">HIGHEST PURIORITY</span></div>
+        <input type="text" placeholder="My task goes here"/>
+        <input type="text" placeholder="My task goes here"/>
+        <div className="task-subtitle"><span className="font-link">HIGHEST PURIORITY</span></div>
+        <input type="text" placeholder="My task goes here"/>
+        <input type="text" placeholder="My task goes here"/>
+        <div className="task-subtitle"><span className="font-link">HIGHEST PURIORITY</span></div>
+        <input type="text" placeholder="My task goes here"/>
+        <input type="text" placeholder="My task goes here"/>
         <div className="quote-subtitle"><span className="font-link">LOOKING PUR MOTIVATION?</span></div>
         <div className="quote"><span className="font-link">{quote.quote}</span></div>
       </div>
