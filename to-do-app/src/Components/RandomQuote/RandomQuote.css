@@ -30,7 +30,7 @@
 
 .title {
     padding: 3%;
-    color: #5E3E3E;
+    color: #4B2B2B;
     font-size: 5em;
     text-align: center;
   }
@@ -45,14 +45,14 @@
   }
 
   input[type="checkbox"] + span:before {
-    width: 12px;
-    height: 12px;
-    border: 1.5px solid #8DA2F1;
+    width: .8em;
+    height: .8em;
+    border: .15em solid #8DA2F1;
     content: "";
     display: inline-block;
     margin: 0 16px 0 0;
-    padding: 0;
-    vertical-align: top;
+    
+    
     border-radius: 50%;
   }
 
@@ -70,26 +70,39 @@
     outline: 0;
   }
 
+ 
+  
   input[type="text"] {
+    inline-size: 150px;
+    overflow-wrap: break-word;
+    width: 12em;
     background: #F1DBF6;
     border: none;
     font-family: 'VT323', cursive;
-    color: #5E3E3E;
+    color: #4B2B2B;
     font-size: 1.5em;
     text-decoration: underline;
-    text-decoration-color: #5E3E3E;
+    text-decoration-color: #4B2B2B;
     text-decoration-thickness: 3px;
+    
+  }
+  
+
+  input[type=text], input:focus {
+   
+      outline: none;
+  
   }
 
   .task-subtitle {
-    color: #5E3E3E;
+    color: #4B2B2B;
     font-size: 3em;
     text-align: Left;
   }
 
 .quote-subtitle {
   padding-bottom: 6%;
-  color: #5E3E3E;
+  color: #4B2B2B;
   font-size: 3em;
   text-align: Left;
   
@@ -99,7 +112,7 @@
     
     height: 10em;
     width: 13em;
-    color: #5E3E3E;
+    color: #4B2B2B;;
     font-size: 2em;
     text-align: Left;
     
