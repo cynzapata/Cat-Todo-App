@@ -31,6 +31,8 @@ export const RandomQuote = () => {
     return (
       <div className='container'>
         
+        <img src="images/sit_pusheen_86.png" id="cat" alt="Sitting Pusheen Cat" />
+        
         <div className="title"><span className="font-link">TASKS FOR PRODUCTIVITY</span></div>
         
 
@@ -38,7 +40,8 @@ export const RandomQuote = () => {
 
         <div className='inner-container'>
           
-        <div className="task-subtitle"><span className="font-link">HIGHEST PURIORITY</span></div>
+
+        <div className="task-subtitle"><img src="images/sit_pusheen_86.png" alt="Sitting Pusheen Cat" /><span className="font-link">HIGHEST PURIORITY</span></div>
         <label>
         <input type="checkbox" onChange={() => {}} />
         <span><input type="text" placeholder="My task goes here"/></span>
@@ -48,7 +51,7 @@ export const RandomQuote = () => {
         <span><input type="text" placeholder="My task goes here"/></span>
       </label>
 
-      <div className="task-subtitle"><span className="font-link">HIGHEST PURIORITY</span></div>
+      <div className="task-subtitle"><img src="images/sit_pusheen_86.png" alt="Sitting Pusheen Cat" /><span className="font-link">HIGHEST PURIORITY</span></div>
       <label>
         <input type="checkbox" onChange={() => {}} />
         <span><input type="text" placeholder="My task goes here"/></span>
@@ -58,7 +61,7 @@ export const RandomQuote = () => {
         <span><input type="text" placeholder="My task goes here"/></span>
       </label>
 
-      <div className="task-subtitle"><span className="font-link">HIGHEST PURIORITY</span></div>
+      <div className="task-subtitle"><img src="images/sit_pusheen_86.png" alt="Sitting Pusheen Cat" /><span className="font-link">HIGHEST PURIORITY</span></div>
       <label>
         <input type="checkbox" onChange={() => {}} />
         <span><input type="text" placeholder="My task goes here"/></span>
@@ -74,7 +77,7 @@ export const RandomQuote = () => {
         <div className="quote">
             <span className="font-link">{quote.quote}</span>
             {/* Render the photo here */}
-            <img src={`${process.env.PUBLIC_URL}/images/${quote.photo}.png`} />
+            <img src={`${process.env.PUBLIC_URL}/images/${quote.photo}.png`}  alt="Motivational cat photo"/>
           </div>
       </div>
       </div>
