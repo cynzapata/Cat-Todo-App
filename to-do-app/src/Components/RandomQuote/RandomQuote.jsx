@@ -34,7 +34,7 @@ export const RandomQuote = () => {
 
         <img src="images/sit_pusheen_86.png" id="cat" alt="Sitting Pusheen Cat" />
         
-        <div className="title"><span className="font-link">TASKS FOR PRODUCTIVITY</span></div>
+        <div className="title"><span className="font-link">TASKS FOR PURDUCTIVITY</span></div>
         
 
         <div className='content-container'>
@@ -55,6 +55,8 @@ export const RandomQuote = () => {
           </div>
       </div>
       </div>
+
+      <div className="cat"></div>
       </div>
     );
     

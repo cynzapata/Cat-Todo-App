@@ -42,7 +42,7 @@ body {
 /* Title styling */
 .title {
   padding-bottom: 2%;
-  font-size: 5em;
+  font-size: 4.5em;
   text-align: center;
 }
 
@@ -147,6 +147,18 @@ input[type="text"]:focus {
   .quote {
     width: 100%;
   }
+
+.cat{
+  
+  background: url("stand_pusheen_120.png");
+  height: 8em;
+  bottom: -15em;
+  width: 100%;
+  position:relative;
+  z-index: 10;
+  animation: sprite-animation 16s steps(16, end) infinite;
+
+}
 }
 
 @media only screen and (max-width: 480px) {
@@ -154,5 +166,32 @@ input[type="text"]:focus {
   .title {
     font-size: 3em;
   }
+  
 }
+
+.cat{
+  
+  background: url("stand_pusheen_120.png");
+  height: 8em;
+  bottom: 0em;
+  width: 100%;
+  position:relative;
+  z-index: 10;
+  animation: sprite-animation 16s steps(16, end) infinite;
+
+}
+@keyframes sprite-animation {
+  from {
+      background-position: 0 0
+  }
+  to {
+      background-position: -8120px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cat {
+    animation: fade 0.5s ease-in both;
+   }
+  }
 
