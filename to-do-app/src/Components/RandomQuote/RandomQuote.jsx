@@ -1,4 +1,5 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect} from 'react';
+import TaskContainer from './TaskContainer';
 import './RandomQuote.css'
 
 
@@ -30,7 +31,7 @@ export const RandomQuote = () => {
   
     return (
       <div className='container'>
-        
+
         <img src="images/sit_pusheen_86.png" id="cat" alt="Sitting Pusheen Cat" />
         
         <div className="title"><span className="font-link">TASKS FOR PRODUCTIVITY</span></div>
@@ -39,37 +40,10 @@ export const RandomQuote = () => {
         <div className='content-container'>
 
         <div className='inner-container'>
-          
 
-        <div className="task-subtitle"><img src="images/sit_pusheen_86.png" alt="Sitting Pusheen Cat" /><span className="font-link">HIGHEST PURIORITY</span></div>
-        <label>
-        <input type="checkbox" onChange={() => {}} />
-        <span><input type="text" placeholder="My task goes here"/></span>
-      </label>
-      <label>
-        <input type="checkbox" onChange={() => {}} />
-        <span><input type="text" placeholder="My task goes here"/></span>
-      </label>
-
-      <div className="task-subtitle"><img src="images/sit_pusheen_86.png" alt="Sitting Pusheen Cat" /><span className="font-link">HIGHEST PURIORITY</span></div>
-      <label>
-        <input type="checkbox" onChange={() => {}} />
-        <span><input type="text" placeholder="My task goes here"/></span>
-      </label>
-      <label>
-        <input type="checkbox" onChange={() => {}} />
-        <span><input type="text" placeholder="My task goes here"/></span>
-      </label>
-
-      <div className="task-subtitle"><img src="images/sit_pusheen_86.png" alt="Sitting Pusheen Cat" /><span className="font-link">HIGHEST PURIORITY</span></div>
-      <label>
-        <input type="checkbox" onChange={() => {}} />
-        <span><input type="text" placeholder="My task goes here"/></span>
-      </label>
-      <label>
-        <input type="checkbox" onChange={() => {}} />
-        <span><input type="text" placeholder="My task goes here"/></span>
-      </label>
+      <TaskContainer />
+      <TaskContainer />
+      <TaskContainer />
       </div>
 
       <div className='inner-container'>
@@ -83,7 +57,10 @@ export const RandomQuote = () => {
       </div>
       </div>
     );
+    
   };
   
   export default RandomQuote;
+
+
 

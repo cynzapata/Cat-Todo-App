@@ -1,168 +1,158 @@
-
-body{
+/* Global styles */
+body {
   background: #F1DBF6;
   color: #4B2B2B;
   font-family: 'VT323', cursive;
 }
 
-
+/* Container styling */
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100%;
   width: 100%;
-  
 }
 
+/* Content container */
 .content-container {
   display: flex;
   flex-direction: row;
   align-items: stretch;
   padding-bottom: 5%;
-  
   width: 100%;
   height: auto;
 }
 
+/* Inner container styling */
 .inner-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
   width: 100%;
   height: auto;
 }
 
-#cat{
-  height: 4.5em;
-  float: left;
+/* Cat image styling */
+#cat {
+  height: 3em;
+  vertical-align: 1em;
 }
+
+/* Title styling */
 .title {
-    padding-bottom: 3%;
-    
-    font-size: 5em;
-    text-align: center;
-  }
+  padding-bottom: 2%;
+  font-size: 5em;
+  text-align: center;
+}
 
+/* Task subtitle styling */
+.task-subtitle {
+  font-size: 3em;
+  text-align: left;
+}
+
+/* Label and checkbox styling */
+label {
+  cursor: pointer;
+  margin-left: 5.6em;
+  padding: 2%;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + span:before {
+  vertical-align: middle;
+  width: 1.2em;
+  height: 1.2em;
+  border: .15em solid #8DA2F1;
+  content: "";
+  display: inline-block;
+  margin: 0 .7em 0 0;
+  border-radius: 50%;
+}
+
+input[type="checkbox"]:checked + span:before {
+  background: #8DA2F1;
+  border: .15em solid #8DA2F1;
+  box-shadow: inset 0px 0px 0px 1px #8DA2F1;
+  color: #333;
+  content: "";
+  text-align: center;
+  border-radius: 50%;
+}
+
+input[type="checkbox"]:focus + span::before {
+  outline: 0;
+}
+
+/* Task subtitle and image styling */
+.task-subtitle img {
+  height: 1.5em;
+  vertical-align: middle;
+}
+
+/* Text input styling */
+input[type="text"] {
+  width: 12em;
+  background: #F1DBF6;
+  border: none;
+  font-family: 'VT323', cursive;
+  color: #4B2B2B;
+  font-size: 1.5em;
+  text-decoration: underline;
+  text-decoration-color: #4B2B2B;
+  text-decoration-thickness: 3px;
   
+}
 
-  label {
-    cursor: pointer;
-    padding: 2%;
-  }
+/* Text input styling */
+input[type="text"]:focus {
+  outline: none;
+}
 
-  input[type="checkbox"] {
-    
-    display: none;
-  }
-
-  input[type="checkbox"] + span:before {
-    width: .8em;
-    height: .8em;
-    border: .15em solid #8DA2F1;
-    content: "";
-    display: inline-block;
-    margin: 0 16px 0 0;
-    
-    
-    border-radius: 50%;
-  }
-
-  input[type="checkbox"]:checked + span:before {
-    background: #8DA2F1;
-    border: 1.5px solid #8DA2F1;
-    box-shadow: inset 0px 0px 0px 1px #8DA2F1;
-    color: #333;
-    content: "";
-    text-align: center;
-    border-radius: 50%;
-  }
-  
-  input[type="checkbox"]:focus + span::before {
-    outline: 0;
-  }
-
-  .task-subtitle img{
-    height: 1.5em;
-    vertical-align:middle;
-  }
-  
-  input[type="text"] {
-    
-    width: 12em;
-    background: #F1DBF6;
-    border: none;
-    font-family: 'VT323', cursive;
-    color: #4B2B2B;
-    font-size: 1.5em;
-    text-decoration: underline;
-    text-decoration-color: #4B2B2B;
-    text-decoration-thickness: 3px;
-    
-  }
-  
-
-  input[type=text], input:focus {
-   
-      outline: none;
-  
-  }
-
-  .task-subtitle {
-   
-    font-size: 3em;
-    text-align: Left;
-  }
-
+/* Quote subtitle styling */
 .quote-subtitle {
   padding-bottom: 3%;
-  
   font-size: 3em;
   text-align: center;
-  
 }
 
-  .quote {
-    
-    height: 10em;
-    width: 13em;
-    
-    font-size: 2em;
-    text-align: center;
-    
-  }
+/* Quote container styling */
+.quote {
+  height: 6em;
+  width: 70%;
+  font-size: 1.5em;
+  text-align: center;
+}
 
-  .quote img {
-    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
-    height: auto; /* Maintain the aspect ratio while resizing */
-    display: block; /* Remove any default inline spacing */
-    margin: 0 auto; /* Center the image horizontally within its container */
-  }
-  
+/* Quote image styling */
+.quote img {
+  padding-top: 1em;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 
-  /* Responsive styles */
-
+/* Responsive styles */
 @media only screen and (max-width: 768px) {
   /* Adjust styles for screens up to 768px wide (typical tablet size) */
-
   .content-container {
-    flex-direction: column; /* Stack items vertically on smaller screens */
+    flex-direction: column;
   }
 
   .quote {
-    width: 100%; /* Make the quote container full-width on smaller screens */
+    width: 100%;
   }
-
 }
 
 @media only screen and (max-width: 480px) {
   /* Adjust styles for screens up to 480px wide (typical phone size) */
-
   .title {
-    font-size: 3em; /* Adjust font size for better readability on smaller screens */
+    font-size: 3em;
   }
-
-  
-
 }
+
