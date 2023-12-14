@@ -6,7 +6,7 @@ const TaskContainer = () => {
     <div className='inner-container'>
       <div className="task-subtitle">
         <img src="images/sit_pusheen_86.png" alt="Sitting Pusheen Cat" />
-        <span className="font-link">HIGHEST PRIORITY</span>
+        <span className="font-link">HIGHEST PURIORITY</span>
       </div>
       <label>
         <input type="checkbox" onChange={() => {}} />
